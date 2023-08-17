@@ -1,4 +1,4 @@
-obj-m += hello.o
+obj-m += button.o
 
 PWD := $(CURDIR)
 KDIR ?= "/lib/modules/$(shell uname -r)/build"
